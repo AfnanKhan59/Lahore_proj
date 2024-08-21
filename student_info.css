@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Adjusted to allow positioning of absolute elements */
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.student-container {
+    margin-bottom: 20px;
+}
+
+.delete-button {
+    background-color: #FF6347; /* Tomato color */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #FF4500; /* Orange-Red color */
+}
+
+.back-to-home-button {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Added transition effect */
+}
+
+.back-to-home-button:hover {
+    background-color: #0056b3;
+}

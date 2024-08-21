@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Data</title>
+  <link rel="stylesheet" href="student.css">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    nav {
+      background-color: #00BFFF; /* Updated background color */
+      padding: 10px;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Rest of your CSS remains unchanged */
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav form {
+      display: flex;
+      align-items: center;
+    }
+
+    nav input[type="text"] {
+      padding: 8px;
+      margin-right: 8px;
+    }
+
+    nav button {
+      padding: 8px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    nav button:hover {
+      background-color: #0056b3;
+    }
+
+    .student-container .delete-link {
+      color: #fff;
+      background-color: #dc3545; /* Red color for delete button */
+      padding: 10px 14px; /* Adjusted padding for more space */
+      border-radius: 4px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .student-container .delete-link:hover {
+      background-color: #c82333; /* Darker red on hover */
+    }
+
+    .student-container p {
+      color: #777;
+    }
+
+    /* Add styles for the delete button */
+    .student-container a {
+      color: #fff;
+      background-color: #dc3545; /* Red color for delete button */
+      padding: 10px 14px; /* Adjusted padding for more space */
+      border-radius: 4px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .student-container a:hover {
+      background-color: #c82333; /* Darker red on hover */
+    }
+
+    /* Remove the recycle bin icon */
+    .student-container a::before {
+      content: ""; /* Remove the content property */
+      font-size: 0; /* Set font size to 0 */
+      margin-right: 0; /* Remove margin-right property */
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="students.php" class="common-styling">Student Data</a></li>
+      <li><a href="insert.php" class="common-styling">Insert Student</a></li>
+    </ul>
+    <form action="students.php" method="get" class="common-styling">
+      <input type="text" name="search" placeholder="Search by Name">
+      <button type="submit">Search</button>
+    </form>
+  </nav>
+
+  <!-- ... (previous HTML code) ... -->
+
+  <!-- ... (remaining HTML code) ... -->
+
+</body>
+</html>

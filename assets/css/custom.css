@@ -1,0 +1,207 @@
+.logged-in.admin-bar {
+    margin-top: 0;
+}
+
+.logged-in.admin-bar header.scrolled {
+    top: 30px;
+}
+
+.enpix-page-navigation a{
+    color: var(--enpix-black-600);
+}
+
+.enpix-page-navigation .current{
+    color: var(--enpix-brand);
+}
+
+.enpix-header .logo h3 {
+    margin-bottom: 0;
+}
+
+.enpix-page-navigation a {
+    color: var(--enpix-black-600);
+    font-weight: 500;
+}
+
+.enpix-page-navigation .current {
+    color: var(--enpix-brand);
+}
+
+.enpix-post-pagination a:hover {
+    text-decoration: none;
+    color: var(--enpix-brand);
+}
+
+.enpix-page-content table {
+    font-size: 20px;
+}
+
+.enpix-page-content dl,
+.comment dl {
+    font-size: 20px;
+}
+
+.comment-section h2 {
+    font-size: 25px;
+}
+
+.comment-reply-link {
+    padding: 5px 20px;
+    margin-top: 25px;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    transition: 0.3s;
+    color: var(--enpix-brand);
+    border: 1px solid var(--enpix-brand);
+}
+
+.comment_box .comment {
+    margin-bottom: 50px;
+}
+
+.comment_box .comment .children li .media {
+    margin-bottom: 50px;
+}
+
+.comment-reply-link:hover{
+    background-color: #ef6525;
+    color: #fff;
+}
+
+.comment .comment_info h3{
+    font-size: 25px;
+}
+
+.enpix-post-header .post-categories li {
+    margin-bottom: 10px;
+}
+
+.format-link .post-title {
+    margin-bottom: 0;
+}
+
+.enpix-post-pagination{
+    margin-top: 50px;
+}
+
+.enpix-post-pagination p {
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+}
+
+.enpix-post-pagination .current {
+    background-color: var(--enpix-brand);
+    color: #fff;
+    border-radius: 2px;
+    padding: 0px 7px;
+}
+
+.enpix-post-pagination a {
+    color: var(--enpix-black-600);
+    font-weight: 500;
+}
+
+.enpix-post-pagination a:hover{
+    text-decoration: none;
+    color: var(--enpix-brand);
+}
+
+.enpix-page-content table{
+    font-size: 20px;
+}
+
+.enpix-page-content dl, .comment dl{
+    font-size: 20px;
+}
+
+.comment-section h2 {
+    font-size: 25px;
+}
+
+.enpix-post-body ul li,
+.enpix-post-body ol li,
+.enpix-page-content ol li,
+.enpix-page-content ul li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.enpix-post-body {
+    font-size: 20px;
+}
+
+.enpix-post-body .post-container {
+    overflow: hidden;
+}
+
+.enpix-post-body input[type='password'] {
+    font-size: 18px;
+}
+
+.post_comment .media img {
+    margin-right: 30px;
+}
+
+.comment table,
+.comment ul,
+.comment ol,
+.comment address {
+    font-size: 20px;
+}
+
+.comment dt {
+    font-size: 20px;
+}
+
+.comment dl {
+    font-size: 18px;
+}
+
+.post-container {
+    padding-bottom: 30px;
+}
+
+.featured-post-badge {
+    background: var(--enpix-black-900);
+    padding: 0px 6px;
+    border-radius: 5px;
+}
+
+.featured-post-badge p {
+    color: var(--enpix-black-50);
+}
+
+.enpix-page-content .elementor-accordion .elementor-accordion-item {
+    border: none;
+    border-bottom: 1px solid var(--enpix-black-100);
+}
+
+@media screen and (max-width: 1199px) {
+    .navbar-nav .dropdown-menu {
+        position: fixed !important;
+    }
+}
+
+.mm-spn span {
+    display: none !important;
+}
+
+.navbar-nav .nav-link {
+    padding: 1rem 1.75rem;
+}
+
+.mm-spn.mm-spn--light {
+    background: #fff;
+}
+
+.enpix-header-2{
+    position: relative;
+    z-index: 3
+}
+
+.companies-logo{
+    margin-bottom: 0;
+}

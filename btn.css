@@ -1,0 +1,31 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Light background color */
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #333; /* Text color */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    z-index: 2;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 50px; /* Adjust the maximum width of your logo */
+    max-height: 50px; /* Adjust the maximum height of your logo */
+    border: 0; /* Remove any borders */
+}

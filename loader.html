@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Page</title>
+    <style>
+        /* Basic CSS to center the video on the page with a white background */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white; /* Changed to white */
+        }
+        video {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Video element -->
+    <video id="video" autoplay>
+        <source src="girls.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- JavaScript for redirection -->
+    <script>
+        // Set the duration in milliseconds (7 seconds = 7000ms)
+        setTimeout(function() {
+            // Redirect to the next page after 7 seconds
+            window.location.href = "girls_sec.php";
+        }, 6000);  // 7000ms = 7 seconds
+    </script>
+
+</body>
+</html>
